@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#dropzone {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.instruction {
+  margin: 60px 0 0 60px;
+  width: 30%;
+  position: relative;
+  font-size: 100px;
+  z-index: 1;
+  font-family: sans-serif;
+  color: white;
+  opacity: 0.3;
+}
+
+canvas {
+  width: 50vw;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 100vh;
+}
+
+input {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
